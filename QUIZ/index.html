@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A JAVASCRIPT AND WEB QUIZ BY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script src="quiz.js">
+    
+    </script>
+   
+   <p id ="TEXT">
+        A WEB PROGRAMMING QUIZ BY AKINUGURAKTAS IN 9/9/2022
+   </p>
+    <div class="container">
+
+        <div id = "content" class="content">
+        
+        <p id="question">
+            
+        </p>
+        <button onmouseover="describe(this.id,0)" class="option" id = "a" onclick="select(this.id)">A</button>
+        <button onmouseover="describe(this.id,0)" class="option" id = "b" onclick="select(this.id)">B</button>
+        <button onmouseover="describe(this.id,0)" class="option" id = "c" onclick="select(this.id)">C</button>
+        <button onmouseover="describe(this.id,0)" class="option" id = "d" onclick="select(this.id)">D</button>
+        <br>
+        <p id="description"></p>
+        <p id="ANSWERS"></p>
+        
+        <button id ="btn" class = "ANSWER" onclick="answer(selected)">CLICK</button>
+    </div>
+    </div>
+    
+</body>
+</html>

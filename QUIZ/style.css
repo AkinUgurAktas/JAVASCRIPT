@@ -1,0 +1,89 @@
+
+        body{
+         
+            background: #DDDDDD;
+            font-size: 15px;
+            font-family: "Bebas Neue",cursive;
+            
+          
+        }
+        .container {
+        position: relative;
+        margin: auto;
+        margin-top: 250px;
+        width: 300px;
+        height: 350px;
+        background-color: #ffffff;
+        border: 2px solid black;
+        border-radius: 10px;
+
+        }
+        
+        .content {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        margin-left: 50px;
+        margin-top: 50px;
+        
+        }
+        .ANSWER
+        {
+            width: 70px;
+            height: 25px;
+            border: 2px solid #68a9ff;
+            background-color: rgb(0, 0, 0);
+            color: #ffffff;
+            
+            border-radius: 5px;
+        }
+        
+        
+        #question
+        {
+            width: 150px;
+            height: 70px;
+            
+        }
+        #description
+        {
+            color: rgb(0, 140, 255);
+            width: 100px;
+            height: 10px;
+            
+           
+        }
+        button
+        {
+            font-size: 10px;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            background-color: black;
+            border: 2px solid red;
+            color: #ffffff;
+            
+        }
+        #ANSWERS
+        {
+            width: 60px;
+            height: 25px;
+            border: 2px solid black;
+            
+        
+        }
+        #TEXT
+        {
+            background-color: #68a9ff;
+            font-size: 40px;
+            font-family: "Bebas Neue",cursive;
+            color: #ffffff;
+            border: 5px solid red;
+            width: auto;
+            height: 50px;
+            text-align: center;
+        }
+    
+     
+       
+    
